@@ -25,7 +25,7 @@ function SubNavbar() {
             </a>
           </li>
           <li>
-            <a href="https://x.com/minthu" target="_blank">
+            <a href="https://x.com/minthu" target="_blank" rel='noreferrer'>
               <i className="fab fa-twitter" />
             </a>
           </li>

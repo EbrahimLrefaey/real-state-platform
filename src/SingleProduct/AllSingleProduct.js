@@ -18,7 +18,7 @@ function AllSingleProduct() {
           return item.id === id ? (
             <div className="row">
               <div className="col-md-6 ">
-                <img src={item.images[0]} className="w-100" />
+                <img src={item.images[0]} className="w-100" alt="product" />
               </div>
               <div className="col-md-6 text-center mt-2">
                 <h4> Name: {item.title}</h4>
