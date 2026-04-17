@@ -19,7 +19,7 @@ function Cart() {
         <img
           src="/assets/images/Empty-cart.png"
           style={{ width: "350px" }}
-          alt="product"
+          alt={items.title}
         />
         <h1 className="text-center mt-5">Your Cart is Empty . . .</h1>;
       </div>
@@ -49,7 +49,7 @@ function Cart() {
                               <img
                                 className="img-fluid mx-auto d-block image"
                                 src={item.images?.[0]}
-                                alt="product"
+                                alt={item.title}
                               />
                             </div>
                             <div className="col-md-8">
